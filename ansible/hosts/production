@@ -1,5 +1,5 @@
 [web]
-104.131.9.84
+52.26.6.29
 
 [production:children]
 web

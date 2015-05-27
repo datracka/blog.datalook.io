@@ -37,13 +37,40 @@
     {
       "type": "composer",
       "url": "http://wpackagist.org"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/datracka/meetup-datalook.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/Yoast/wordpress-seo.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/datracka/disqus-wordpress.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/ibericode/mailchimp-for-wordpress.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/datracka/WordPress.Enlighter.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/datracka/simplesharebuttons.git"
     }
   ],
   "require": {
     "php": ">=5.4",
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv": "~1.0.9",
-    "johnpbloch/wordpress": "4.2.2"
+    "johnpbloch/wordpress": "4.2.2",
+    "datracka/meetup-datalook": "dev-master",
+    "datracka/WordPress.Enlighter": "dev-master",
+    "datracka/simplesharebuttons": "dev-master"
   },
   "extra": {
     "installer-paths": {

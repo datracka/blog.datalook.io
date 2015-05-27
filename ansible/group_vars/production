@@ -1,32 +1,11 @@
 mysql_root_password: B3LkKUpcZVx4bpLXKXpiez%R
 
-github_ssh_keys:
-  - username: swalkinshaw
-    authorized:
-      - "{{ web_user }}"
-  - username: retlehs
-    authorized:
-      - "{{ web_user }}"
-
-project_pre_build_commands_local:
-   - path: "{{ project.local_path }}/web/app/themes/sage"
-     cmd: npm install
-   - path: "{{ project.local_path }}/web/app/themes/sage"
-     cmd: bower install
-   - path: "{{ project.local_path }}/web/app/themes/sage"
-     cmd: gulp --production
-
-project_local_files:
-  - name: compiled theme assets
-    src: "{{ project.local_path }}/web/app/themes/sage/dist"
-    dest: web/app/themes/sage
-
 wordpress_sites:
-  roots-example-project.com:
+  dev-blog.datalook.io:
     site_hosts:
-      - roots-example-project.com
+      - dev-blog.datalook.io
     local_path: '../site' # path targeting local Bedrock project directory (relative to Ansible root)
-    repo: git@github.com:roots/bedrock.git
+    repo: git@github.com:datracka/blog.datalook.io.git
     subtree: site
     branch: master
     multisite:
@@ -36,8 +15,8 @@ wordpress_sites:
       enabled: false
     system_cron: true
     env:
-      wp_home: http://roots-example-project.com
-      wp_siteurl: http://roots-example-project.com/wp
+      wp_home: http://dev-blog.datalook.io
+      wp_siteurl: http://dev-blog.datalook.io/wp
       wp_env: production
       db_name: roots_example_project_prod
       db_user: roots_example_project_dbuser

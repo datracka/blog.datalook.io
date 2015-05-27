@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "07dd85371456253ffba1c0ec34eba9fb",
+    "hash": "3991878d7c5e245e17f6db6356648a4f",
     "packages": [
         {
             "name": "composer/installers",
@@ -100,6 +100,69 @@
                 "zikula"
             ],
             "time": "2015-02-18 17:17:01"
+        },
+        {
+            "name": "datracka/WordPress.Enlighter",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/datracka/WordPress.Enlighter.git",
+                "reference": "b1b7874fcbe52223d0016a331c4a90e763fbbbaa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/datracka/WordPress.Enlighter/zipball/b1b7874fcbe52223d0016a331c4a90e763fbbbaa",
+                "reference": "b1b7874fcbe52223d0016a331c4a90e763fbbbaa",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/datracka/WordPress.Enlighter/tree/master",
+                "issues": "https://github.com/datracka/WordPress.Enlighter/issues"
+            },
+            "time": "2015-05-27 11:48:06"
+        },
+        {
+            "name": "datracka/meetup-datalook",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/datracka/meetup-datalook.git",
+                "reference": "5b911d3e2ac0e637047f367c5dd89e925f79b18e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/datracka/meetup-datalook/zipball/5b911d3e2ac0e637047f367c5dd89e925f79b18e",
+                "reference": "5b911d3e2ac0e637047f367c5dd89e925f79b18e",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/datracka/meetup-datalook/tree/master",
+                "issues": "https://github.com/datracka/meetup-datalook/issues"
+            },
+            "time": "2015-05-25 11:04:27"
+        },
+        {
+            "name": "datracka/simplesharebuttons",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/datracka/simplesharebuttons.git",
+                "reference": "3224621e8bf8f43ca165833a80b18549f6155deb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/datracka/simplesharebuttons/zipball/3224621e8bf8f43ca165833a80b18549f6155deb",
+                "reference": "3224621e8bf8f43ca165833a80b18549f6155deb",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/datracka/simplesharebuttons/tree/master",
+                "issues": "https://github.com/datracka/simplesharebuttons/issues"
+            },
+            "time": "2015-05-27 11:42:57"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -238,7 +301,11 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "datracka/meetup-datalook": 20,
+        "datracka/wordpress.enlighter": 20,
+        "datracka/simplesharebuttons": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
