@@ -1,9 +1,9 @@
 mysql_root_password: B3LkKUpcZVx4bpLXKXpiez%R
 
 wordpress_sites:
-  dev-blog.datalook.io:
+  blog.datalook.io:
     site_hosts:
-      - dev-blog.datalook.io
+      - blog.datalook.io
     local_path: '../site' # path targeting local Bedrock project directory (relative to Ansible root)
     repo: git@github.com:datracka/blog.datalook.io.git
     subtree: site
@@ -15,8 +15,8 @@ wordpress_sites:
       enabled: false
     system_cron: true
     env:
-      wp_home: http://dev-blog.datalook.io
-      wp_siteurl: http://dev-blog.datalook.io/wp
+      wp_home: http://blog.datalook.io
+      wp_siteurl: http://blog.datalook.io/wp
       wp_env: production
       db_name: roots_example_project_prod
       db_user: roots_example_project_dbuser
