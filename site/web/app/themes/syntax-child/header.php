@@ -47,7 +47,7 @@ $path     = get_theme_mod( 'jetpack-path' );
 		  <div class="nav-module">
 			</div>
 		  <div class="nav-module header-menu">
-				<strong>Blog</strong> | <a href="http://datalook.io" style="text-decoration: none;">Home</a>
+				<strong>Blog</strong> | <a href="http://datalook.io" style="text-decoration: none;">Projects</a>
         | <a href="http://datalook.io/about" style="text-decoration: none;">About</a>
 			</div>
 	</header><!-- #masthead -->
